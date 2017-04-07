@@ -9,6 +9,7 @@ public class XslTrackingHelper {
 		return "DUMMY_IMAGE_LINK";
 	}
 	
+	//special
 	public static String buildLinkToSociety (String doi, String html_or_pdf) {
 		return "DUMMY_EXTENDEDTOC" +"_" + html_or_pdf + "_" + doi;
 	}
